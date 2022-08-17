@@ -1,0 +1,45 @@
+module.exports = {
+  mode: "jit",
+  content: [
+    "./src/**/**/*.{js,ts,jsx,tsx,html,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,html,mdx}",
+  ],
+  darkMode: "class",
+  theme: {
+    screens: { lg: "1120px", xl: "1281px", "2xl": "1441px", "3xl": "1729px" },
+    extend: {
+      colors: {
+        red_901: "#b60635",
+        lime_600: "#d7ad35",
+        red_900: "#aa0430",
+        green_A700_cc: "#1ed760cc",
+        gray_200: "#eaeaea",
+        black_900_3f: "#0000003f",
+        gray_201: "#e8e8e8",
+        green_A700: "#1ed760",
+        black_900_cc: "#000000cc",
+        black_900: "#000000",
+        indigo_900: "#023078",
+        cyan_900: "#036168",
+        white_A700: "#ffffff",
+      },
+      fontFamily: {
+        dmserifdisplay: "DM Serif Display",
+        darkergrotesque: "Darker Grotesque",
+        montserrat: "Montserrat",
+      },
+      letterSpacing: {
+        ls1: "1px",
+        ls2: "2px",
+        ls3: "3px",
+        ls4: "4px",
+        ls5: "5px",
+      },
+      backgroundImage: { gradient: "radial-gradient(#1ed760cc,#000000cc)" },
+      borderRadius: { radius864: "864px" },
+      borderWidth: { bw7: "7px" },
+      textShadow: { ts: "0px 18px  17px #0000003f" },
+    },
+  },
+  plugins: [require("@tailwindcss/forms")],
+};

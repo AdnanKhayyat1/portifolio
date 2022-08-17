@@ -1,0 +1,7 @@
+
+ @font-face { font-style : normal; src: url("assets/fonts/DMSerifDisplayRegular.ttf"); font-family : "DM Serif Display"; font-weight : 400;  }
+ @font-face { font-style : bold; src: url("assets/fonts/DarkerGrotesqueExtraBold.ttf"); font-family : "Darker Grotesque"; font-weight : 800;  }
+ @font-face { font-style : normal; src: url("assets/fonts/MontserratRomanRegular.ttf"); font-family : "Montserrat"; font-weight : 400;  }
+ @font-face { font-style : italic; src: url("assets/fonts/DMSerifDisplayItalic.ttf"); font-family : "DM Serif Display"; font-weight : 400;  }
+ @font-face { font-style : italic; src: url("assets/fonts/MontserratItalicBold.ttf"); font-family : "Montserrat"; font-weight : 700;  }
+ @font-face { font-style : bold; src: url("assets/fonts/DarkerGrotesqueMedium.ttf"); font-family : "Darker Grotesque"; font-weight : 500;  }
